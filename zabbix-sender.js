@@ -50,7 +50,6 @@ module.exports = function (RED) {
 			        			that.error(err, msg);
 								return;
 			    			}
-			    			that.log(res, msg);
 				});
 			}
 		})
